@@ -1,0 +1,55 @@
+{
+  "total_evaluations": 1,
+  "total_abstentions": 1,
+  "abstention_rate": 1.0,
+  "detailed_results": [
+    {
+      "request": {
+        "query": "What is the capital of France?",
+        "answer": "Paris",
+        "query_time": "2026-09-09T17:22:43.428641Z",
+        "sources": [
+          {
+            "source_id": "d0546b05-2ba2-4ae6-bfb5-12d02b58c619",
+            "title": "Geography",
+            "content": "Paris is the capital of France.",
+            "source_type": "PRIMARY",
+            "published_at": null
+          }
+        ],
+        "citations": []
+      },
+      "trust_profile": {
+        "evaluation_id": "90335f62-d7f9-48c5-8dbd-f5f706db2392",
+        "claims": {
+          "total": 0,
+          "supported": 0,
+          "refuted": 0,
+          "unknown": 0,
+          "needs_qualification": 0
+        },
+        "citation": {
+          "coverage": 0.0,
+          "precision": 0.0,
+          "entailment": 0.0
+        },
+        "evidence": {
+          "recall_at_5": 0.0
+        },
+        "temporal": {
+          "freshness_warnings": 0
+        },
+        "contradiction": {
+          "possible_risk": 0.0
+        },
+        "calibration": {
+          "brier_score": 0.0,
+          "ece": 0.0
+        },
+        "abstention": {
+          "recommended": true
+        }
+      }
+    }
+  ]
+}
